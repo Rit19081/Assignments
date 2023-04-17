@@ -8,8 +8,10 @@ public class Q4 {
 				for(int k = 0 ; k <= ch.length-1 ; k++) {
 					for(int l = 0 ; l <= ch.length-1 ; l++) {
 						for(int m = 0 ; m <= ch.length-1 ; m++) {
-							if(i!=j && j!=k && k!=l && l!=m && m!=i) {
-								System.out.println(ch[i] + "" + ch[j] + "" +ch[k] + "" + ch[l] + "" + ch[m] );
+							for(int n = 0 ; n <= ch.length-1 ; n++){
+							if(i!=j && j!=k && k!=l && l!=m && m!=n && n!=i) {
+								System.out.println(ch[i] + "" + ch[j] + "" +ch[k] + "" + ch[l] + "" + ch[m] + "" + ch[n]);
+							}
 							}
 						}
 					}
